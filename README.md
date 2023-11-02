@@ -1,9 +1,38 @@
-Deedy-Cover-Letter
-=========================
+# Justifying Text in Deedy-Cover-Letter
 
-Clean and professional looking cover letter based on Deedy Resume.
+This README explains the changes made to the Deedy-Cover-Letter branch to justify text. It also includes before and after images for reference.
 
-The signature can be changed by replacing the `signature.jpg` file inside the `OpenFonts` folder.
+## Changes Made
 
-## Preview
-<img src="https://github.com/apurvmishra99/Deedy-Cover-Letter/blob/master/cover.png" alt="preview">
+In the LaTeX code, the following changes were made to justify the text:
+
+```latex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Justifying
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{ragged2e}
+\renewcommand{\lettercontent}[1]{\justifying\noindent\fontspec[Path = 
+OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}
+\selectfont {#1 \\}\mbox{}\\ \normalfont}
+```
+
+The \justifying command was added to justify the text.
+
+### Before
+
+![Before Image](image_file_name.png)
+
+### After
+
+![After Image](image_file_name.png)
+
+How to Use
+If you want to use this modified code in your Deedy-Cover-Letter, simply replace the relevant section of your LaTeX file with the provided code.
+
+License
+This project is open-source and available under the [License Name] license. See the LICENSE file for details.
+
+Author:
+Moein Sarbandi
+
+Feel free to contribute to this project.
