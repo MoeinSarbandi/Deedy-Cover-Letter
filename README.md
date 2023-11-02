@@ -20,11 +20,11 @@ The \justifying command was added to justify the text.
 
 ### Before
 
-![Before Image](image_file_name.png)
+![Before Image](https://github.com/MoeinSarbandi/Deedy-Cover-Letter/blob/master/before.JPG)
 
 ### After
 
-![After Image](image_file_name.png)
+![After Image](https://github.com/MoeinSarbandi/Deedy-Cover-Letter/blob/master/after.JPG)
 
 How to Use
 If you want to use this modified code in your Deedy-Cover-Letter, simply replace the relevant section of your LaTeX file with the provided code.
